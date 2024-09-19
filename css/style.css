@@ -2,8 +2,17 @@ body{
     background-color: #E4BB8E;
 }
 
+nav {
+	margin: auto;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff9f0;
+}
+
 nav a{
     text-decoration: none;
-    text-align: center;
-    text-decoration-color: #666D4F;
+    color: #666D4F;
 }
