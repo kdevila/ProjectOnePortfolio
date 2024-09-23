@@ -46,6 +46,11 @@ display: inline;
     max-width: 800px;
 }
 
+/*to center images*/
+.imgc{
+text-align: center;
+}
+
 /*gif*/
 .gif{
 display:inline-block;
@@ -55,8 +60,12 @@ max-width: 40px;
 /*text on page*/
 h1{
 text-align: center;
-
 }
+
+h2{
+font-size: 16px;
+}
+
 h5{
     font-family: "Handjet", sans-serif;
     font-weight: 300;
@@ -68,6 +77,15 @@ h5{
 font-family: "Handjet", sans-serif;
 font-weight: 300;
 font-size: 24px;
+text-decoration: none;
+color: #666D4F;
+}
+
+/*inspiration images*/
+.inspo{
+font-family: "Handjet", sans-serif;
+font-weight: 600;
+font-size: 30px;
 text-decoration: none;
 color: #666D4F;
 }
