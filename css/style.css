@@ -9,18 +9,55 @@ nav{
     font-family: "Handjet", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
     text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
 /*visual adjustments*/
     top: 0%;
-    background-color: #fff9f0;
     margin: auto;
     width: 100%;
-    padding: 25px;
+    padding-top: 25px;
+    margin: 40px 10px 40px 10px;
+    max-width: 700px;
 }
 nav a{
+    display: flex-box;
+    background-color: #666D4F;
     text-decoration: none;
-    color: #666D4F;
+    color:beige;
+    
+}
+ul{
+list-style-type: none;
 }
 
+li{
+display: inline;
+}
+/*NAVIGATION*/
 
+
+/*div panel background*/
+.panel{
+    background-color:#efe5d3;
+    margin:auto;
+    padding-left: 40px;
+    padding-right: 20px;
+    max-width: 800px;
+}
+
+/*text on page*/
+h5{
+    font-family: "Handjet", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.foot{
+font-family: "Handjet", sans-serif;
+font-weight: 300;
+font-size: 24px;
+text-decoration: none;
+color: #666D4F;
+}
