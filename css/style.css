@@ -46,6 +46,12 @@ display: inline;
     max-width: 800px;
 }
 
+/*gif*/
+.gif{
+display:inline-block;
+max-width: 40px;
+}
+
 /*text on page*/
 h5{
     font-family: "Handjet", sans-serif;
