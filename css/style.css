@@ -1,6 +1,5 @@
-/*will add universal code later*/
+/*will add universal selector code later*/
 *{
-font-family: "Handjet", sans-serif;
 }
 
 
@@ -9,8 +8,10 @@ body{
     background-color: #E4BB8E;
 }
 
-nav a{
+/*NAVIGATION*/
+nav{
 /*font look*/
+    font-family: "Handjet", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -22,8 +23,9 @@ nav a{
     width: 100%;
     padding: 25px;
 }
-
-a{
+nav a{
     text-decoration: none;
     color: #666D4F;
 }
+
+
