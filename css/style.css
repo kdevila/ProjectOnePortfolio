@@ -53,7 +53,7 @@ text-align: center;
 
 /*gif*/
 .gif{
-display: inline-block;
+display:inline-flexbox;
 max-width: 53%;
 }
 
