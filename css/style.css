@@ -1,5 +1,5 @@
 *{
-    margin: 0%;
+    margin: 0;
 }
 
 body{
@@ -35,22 +35,22 @@ nav a{
 /*div panel background*/
 .panel{
     background-color:#efe5d3;
-    padding:0px 20px 0px 40px;
+    padding:0 20px 0 40px;
     margin: 10px 50px 25px 35px;
 }
 
 
 /*gif*/
 .gif{
-display:inline-flexbox;
 max-width: 40%;
 }
 
 /*text on pages*/
-h1,h2,h4{
+h1,h4{
 text-align: center;
 }
 h2{
+text-align: center;
 font-size: 22px;
 }
 h5{
@@ -70,7 +70,7 @@ color: #666D4F;
 /*home visuals*/
 .homeimg{
 margin-left:30px;
-padding-block: 30px;
+padding: 30px;
 }
 
 /*inspiration images*/
@@ -82,6 +82,7 @@ text-decoration: none;
 color: #666D4F;
 text-align: center;
 }
+/*for inspo images and home pg header*/
 .pad-ins{
 padding: 30px;
 }
