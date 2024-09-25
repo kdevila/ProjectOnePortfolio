@@ -1,3 +1,6 @@
+*{
+    margin: 0%;
+}
 
 body{
     background-color: #E4BB8E;
@@ -9,76 +12,63 @@ nav{
     font-family: "Handjet", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-    font-size: 28px;
+    font-size: 50px;
     text-transform: uppercase;
 /*visual adjustments*/
-    top: 0%;
-    margin: auto;
     width: 100%;
     padding-top: 25px;
+    justify-content: center;
     margin: 40px 10px 40px 10px;
-    max-width: 700px;
+    display: flex;
+    gap: 200px;
 }
 nav a{
     display: flex-box;
     background-color: #666D4F;
     text-decoration: none;
-    color:beige;
-    
+    color:beige; 
 }
-ul{
-list-style-type: none;
-}
-
-li{
-display: inline;
-}
-/*NAVIGATION*/
 
 
 /*div panel background*/
 .panel{
     background-color:#efe5d3;
-    margin:auto;
-    padding-left: 40px;
-    padding-right: 20px;
-    max-width: 800px;
+    padding:0px 20px 0px 40px;
+    margin: 10px 50px 25px 35px;
 }
 
-/*to center images*/
-.imgc{
-text-align: center;
-}
 
 /*gif*/
 .gif{
 display:inline-flexbox;
-max-width: 53%;
+max-width: 40%;
 }
 
-/*text on page*/
-h1{
+/*text on pages*/
+h1,h2,h4{
 text-align: center;
 }
-
 h2{
-font-size: 16px;
+font-size: 22px;
 }
-
 h5{
     font-family: "Handjet", sans-serif;
     font-weight: 300;
     font-size: 24px;
     font-style: normal;
 }
-
 .foot{
 font-family: "Handjet", sans-serif;
 font-weight: 300;
 font-size: 24px;
 text-decoration: none;
 color: #666D4F;
+}
+
+/*home visuals*/
+.homeimg{
+margin-left:30px;
+padding-block: 30px;
 }
 
 /*inspiration images*/
@@ -88,4 +78,14 @@ font-weight: 600;
 font-size: 30px;
 text-decoration: none;
 color: #666D4F;
+text-align: center;
+}
+.pad-ins{
+padding: 30px;
+}
+
+.artists{
+display:block;
+margin-left: auto;
+margin-right: auto;
 }
