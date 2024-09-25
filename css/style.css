@@ -25,6 +25,8 @@ nav{
 nav a{
     display: flex-box;
     background-color: #666D4F;
+    border-width: thick;
+    border-style: dotted;
     text-decoration: none;
     color:beige; 
 }
