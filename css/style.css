@@ -30,15 +30,20 @@ nav a{
     text-decoration: none;
     color:beige; 
 }
+nav a:hover{
+    background-color:#EBA3C8;
+    border-width: thick;
+    border-style: dotted;
+    text-decoration: none;
+    color: peachpuff;
+}
 
-
-/*div panel background*/
+/*div 'panel' background*/
 .panel{
     background-color:#efe5d3;
     padding:0 20px 0 40px;
     margin: 10px 50px 25px 35px;
 }
-
 
 /*gif*/
 .gif{
@@ -58,6 +63,10 @@ h5{
     font-weight: 300;
     font-size: 24px;
     font-style: normal;
+    /*text adjustments*/
+    text-align: center;
+    margin: 0 355px 0 355px;
+    padding-top: 20px;
 }
 .foot{
 font-family: "Handjet", sans-serif;
@@ -68,9 +77,9 @@ color: #666D4F;
 }
 
 /*home visuals*/
-.homeimg{
-margin-left:30px;
-padding: 30px;
+.flex{
+display:flex;
+justify-content: center;
 }
 
 /*inspiration images*/
@@ -82,9 +91,13 @@ text-decoration: none;
 color: #666D4F;
 text-align: center;
 }
-/*for inspo images and home pg header*/
+h3:hover{
+text-decoration: none;
+color: #EBA3C8;
+}
+/*for inspo images and home pg bio*/
 .pad-ins{
-padding: 30px;
+padding-top: 30px;
 }
 
 .artists{
