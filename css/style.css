@@ -52,6 +52,9 @@ max-width: 40%;
 
 /*text on pages*/
 h1,h4{
+font-family: "Rubik";
+font-weight: 200;
+font-style: italic;
 text-align: center;
 }
 h2{
