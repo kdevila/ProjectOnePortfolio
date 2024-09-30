@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    text-decoration: none;
 }
 
 body{
@@ -11,14 +12,13 @@ nav{
 /*font look*/
     font-family: "Rubik";
     font-weight: 400;
-    font-style: normal;
     font-size: 50px;
     text-transform: uppercase;
 /*visual adjustments*/
     width: 100%;
     padding-top: 25px;
     justify-content: center;
-    margin: 40px 10px 40px 10px;
+    margin: 40px 10px;
     display: flex;
     gap: 200px;
 }
@@ -27,14 +27,12 @@ nav a{
     background-color: #666D4F;
     border-width: thick;
     border-style: dotted;
-    text-decoration: none;
     color:beige; 
 }
 nav a:hover{
     background-color:#EBA3C8;
     border-width: thick;
     border-style: dotted;
-    text-decoration: none;
     color: peachpuff;
 }
 
@@ -69,14 +67,16 @@ h5{
     font-style: normal;
     /*text adjustments*/
     text-align: center;
-    margin: 0 355px 0 355px;
+    margin: 0 355px;
     padding-top: 20px;
+}
+section{
+padding-bottom: 20px;
 }
 .foot{
 font-family: "Rubik";
 font-weight: 300;
 font-size: 24px;
-text-decoration: none;
 color: #666D4F;
 }
 
@@ -91,21 +91,65 @@ justify-content: center;
 font-family: "Rubik";
 font-weight: 600;
 font-size: 30px;
-text-decoration: none;
 color: #666D4F;
 text-align: center;
 }
 h3:hover{
-text-decoration: none;
 color: #EBA3C8;
 }
 /*for inspo images and home pg bio*/
 .pad-ins{
 padding-top: 30px;
 }
-
 .artists{
 display:block;
 margin-left: auto;
 margin-right: auto;
+}
+
+/*for top fives*/
+ol,li{
+justify-content: center;
+font-family: "Rubik";
+font-size: 18px;
+font-weight: 600;
+color: #666D4F;
+}
+li:hover{
+color: #EBA3C8;
+}
+dd{
+font-family: "Rubik";
+color: #666D4F;
+font-size: 18px;
+padding: 9px;
+}
+
+#top5s{
+flex-wrap: wrap;
+border-radius: 35px;
+padding: 45px;
+}
+
+
+.lists{
+display: flex;
+padding: 35px;
+}
+    
+.items{
+max-width: 90%;
+max-height:98%;
+border-radius: 35px;
+}
+.places{
+color: #666D4F;
+}
+.places:hover{
+color: #EBA3C8;
+}
+.gwapo{
+max-width: 98%;
+max-height:98%;
+border-radius: 35px;
 }
